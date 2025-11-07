@@ -4,7 +4,8 @@ interface NavbarItem {
 }
 export declare class NavIimasComponent {
     navInfo: import("@angular/core").InputSignal<NavbarItem | undefined>;
+    navImg: import("@angular/core").InputSignal<string | undefined>;
     static ɵfac: i0.ɵɵFactoryDeclaration<NavIimasComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NavIimasComponent, "nav-iimas", never, { "navInfo": { "alias": "navInfo"; "required": false; "isSignal": true; }; }, {}, never, never, true, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NavIimasComponent, "nav-iimas", never, { "navInfo": { "alias": "navInfo"; "required": false; "isSignal": true; }; "navImg": { "alias": "navImg"; "required": false; "isSignal": true; }; }, {}, never, never, true, never>;
 }
 export {};
